@@ -1,3 +1,6 @@
-# Payinvert Merchant
+#LIVE THE WORLD TEST
 
-UI - https://www.figma.com/file/0cWp1LSup3ZPfpmk9nSii8/Business?node-id=0%3A1
+
+Install project using yarn or npm install
+
+Initial screen is a login screen after which users are routed to the activities page
