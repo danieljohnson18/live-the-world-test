@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: GeometriaLight, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 611px;
+}
+
+.check {
+  display: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pro-sidebar
+  .pro-menu.shaped
+  .pro-menu-item
+  > .pro-inner-item
+  > .pro-icon-wrapper {
+  background-color: #f5f5f5 !important;
+  padding: 0px;
+}
+
+.pro-sidebar
+  .pro-menu
+  .pro-menu-item
+  > .pro-inner-item
+  > .pro-icon-wrapper
+  .pro-icon {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start !important;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+  position: relative;
+  background-color: #f5f5f5 !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 35px 8px 16px !important;
+  cursor: pointer;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item > div > ul {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 101;
+  background: none !important;
+  margin-top: 24px;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  /* Input/Muted/Placeholder */
+
+  color: #7a828a;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  /* Input/Muted/Placeholder */
+
+  color: #7a828a;
+}
+
+.pro-sidebar .pro-menu a {
+  text-decoration: none;
+  color: #7a828a;
+}
+
+.pro-sidebar.collapsed
+  .pro-menu
+  > ul
+  > .pro-menu-item.pro-sub-menu
+  > .pro-inner-list-item
+  > .popper-inner {
+  max-height: 100vh;
+  overflow-y: auto;
+  background-color: #f5f5f5 !important;
+  padding-left: 20px;
+  border-radius: 4px;
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+  height: 100vh;
+  z-index: 101;
+  background: #f5f5f5 !important;
+  position: relative !important;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 101;
+  position: relative !important;
+}
+
+/* ::-webkit-scrollbar {
+  display: none !important;
+} */
+
+.pro-sidebar
+  .pro-menu
+  .pro-menu-item.pro-sub-menu
+  > .pro-inner-item
+  > .pro-arrow-wrapper
+  .pro-arrow {
+  display: inline-block;
+  border-style: solid;
+  border-color: #adadad;
+  border-width: 0 2px 2px 0;
+  padding: 2.5px;
+  vertical-align: middle;
+  transition: transform 0.3s;
+  transform: rotate(45deg) !important;
+}
+
+.pro-sidebar
+  .pro-menu
+  .pro-menu-item.pro-sub-menu.open
+  > .pro-inner-item
+  > .pro-arrow-wrapper
+  .pro-arrow {
+  transform: rotate(225deg) !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item {
+  padding-left: 0px !important;
+}
+
+.pro-sidebar .pro-menu a {
+  text-decoration: none;
+  color: #016e20 !important;
+}
+
+/* .recharts-surface {
+  display: none !important;
+}
+.recharts-legend-icon {
+  display: none !important;
+} */
+
+.recharts-legend-item {
+  display: none !important;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #19943c !important;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #19943c !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 32px;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.011em;
+}
+
+.react-datepicker__input-container {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #616161;
+}
+
+.react-datepicker__input-container input {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.no-arrow {
+  -moz-appearance: textfield;
+}
+.no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

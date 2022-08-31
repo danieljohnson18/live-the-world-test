@@ -1,0 +1,103 @@
+.activityBody {
+  padding: 25px 100px 0px;
+}
+
+.activityHeader {
+  font-size: 24px;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(102, 159, 178);
+  line-height: 0.9;
+  text-align: left;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.label {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(194, 217, 224);
+  border-radius: 34px;
+  font-family: Mulish;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgb(25, 47, 84);
+  padding: 5px 10px;
+  margin: 0px 5px 5px 0px;
+}
+
+.nearby {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgb(102, 159, 178);
+  margin-top: 15px;
+}
+
+.activityCard {
+  width: 270px;
+}
+.firstImage {
+  pointer-events: auto;
+  height: 250px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+.imageTitle {
+  overflow-wrap: break-word;
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: rgb(25, 47, 84);
+  text-transform: capitalize;
+}
+
+.imageDescription {
+  color: rgb(140, 151, 169);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-bottom: 45px;
+  font-size: 16px;
+}
+
+.imageSection {
+  position: relative;
+  .saveButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    outline: none;
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    width: fit-content;
+    background-color: rgb(252, 107, 67);
+    border-color: rgb(252, 107, 67);
+    z-index: 99;
+    vertical-align: middle;
+    transition: box-shadow 0.4s ease 0s;
+  }
+}
